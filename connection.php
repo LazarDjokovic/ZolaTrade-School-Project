@@ -1,5 +1,5 @@
 <?php
-    $connection=mysql_connect('localhost:3306','','');
+    $connection=mysql_connect('localhost','','');
     
     $base=mysql_select_db("") or die ("Database is not available");
     
